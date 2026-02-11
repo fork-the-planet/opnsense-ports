@@ -1,6 +1,6 @@
 PORTNAME=	pkg
 DISTVERSION=	2.3.1
-PORTREVISION=	2
+PORTREVISION=	1
 _PKG_VERSION=	${DISTVERSION}
 CATEGORIES=	ports-mgmt
 
@@ -9,8 +9,7 @@ PATCHFILES=	a54ea1a2f7d858fe6eb2976d688c251e64acf8f8.patch:-p1 \
 		ee697525b7d6e02ce0f62660b0a31b082514b393.patch:-p1 \
 		d9e62a7b42efca6c0e1d1c0f9aa2fe763f56da85.patch:-p1 \
 		b93bfd925b7871a9d93b597aa90df41642064d4c.patch:-p1 \
-		523caa97c9409c4015f08db750ebc79b904ea6dd.patch:-p1 \
-		94e5e97a50d2cdd62aa1836ddfc8936175ea7876.patch:-p1
+		523caa97c9409c4015f08db750ebc79b904ea6dd.patch:-p1
 
 MAINTAINER=	pkg@FreeBSD.org
 COMMENT=	Package manager
