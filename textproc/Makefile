@@ -110,6 +110,7 @@
     SUBDIR += codesearch
     SUBDIR += codespell
     SUBDIR += colordiff
+    SUBDIR += comparator
     SUBDIR += comrak
     SUBDIR += confget
     SUBDIR += consul-template
@@ -371,6 +372,7 @@
     SUBDIR += kmflcomp
     SUBDIR += kn-aspell
     SUBDIR += kompare
+    SUBDIR += krep
     SUBDIR += kreport
     SUBDIR += ku-aspell
     SUBDIR += ky-aspell
@@ -1670,6 +1672,7 @@
     SUBDIR += py-sphinxcontrib-jquery
     SUBDIR += py-sphinxcontrib-jsmath
     SUBDIR += py-sphinxcontrib-log-cabinet
+    SUBDIR += py-sphinxcontrib-mermaid
     SUBDIR += py-sphinxcontrib-napoleon
     SUBDIR += py-sphinxcontrib-newsfeed
     SUBDIR += py-sphinxcontrib-nwdiag
@@ -1850,9 +1853,7 @@
     SUBDIR += rubygem-css_parser
     SUBDIR += rubygem-cssmin
     SUBDIR += rubygem-cucumber-gherkin
-    SUBDIR += rubygem-cucumber-gherkin34
     SUBDIR += rubygem-cucumber-html-formatter
-    SUBDIR += rubygem-cucumber-html-formatter21
     SUBDIR += rubygem-cucumber-html-formatter22
     SUBDIR += rubygem-dartsass
     SUBDIR += rubygem-diff-lcs
@@ -1937,7 +1938,6 @@
     SUBDIR += rubygem-loggability
     SUBDIR += rubygem-loofah
     SUBDIR += rubygem-loofah-gitlab
-    SUBDIR += rubygem-loofah222
     SUBDIR += rubygem-ltsv
     SUBDIR += rubygem-markaby
     SUBDIR += rubygem-mdl
@@ -1975,6 +1975,7 @@
     SUBDIR += rubygem-rails-dom-testing-rails81
     SUBDIR += rubygem-rails-dom-testing1
     SUBDIR += rubygem-rails-html-sanitizer
+    SUBDIR += rubygem-rails-html-sanitizer-gitlab
     SUBDIR += rubygem-rak
     SUBDIR += rubygem-rchardet
     SUBDIR += rubygem-rdiscount
