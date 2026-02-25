@@ -76,6 +76,7 @@ lib/libnutscan.so.3.0.0
 %%SERIAL%%libexec/nut/bestfortress
 %%SERIAL%%libexec/nut/bestuferrups
 %%SERIAL%%libexec/nut/bestups
+%%SERIAL%%libexec/nut/bicker_ser
 %%SERIAL%%libexec/nut/blazer_ser
 %%USB%%libexec/nut/blazer_usb
 %%SERIAL%%libexec/nut/clone
@@ -89,6 +90,7 @@ lib/libnutscan.so.3.0.0
 %%SERIAL%%libexec/nut/ivtscd
 %%SERIAL%%libexec/nut/liebert
 %%SERIAL%%libexec/nut/liebert-esp2
+%%SERIAL%%libexec/nut/liebert-gxe
 %%SERIAL%%libexec/nut/masterguard
 %%SERIAL%%libexec/nut/metasys
 %%SERIAL%%libexec/nut/mge-utalk
@@ -250,6 +252,8 @@ lib/libnutscan.so.3.0.0
 %%MANPAGES%%%%SERIAL%%share/man/man8/bestuferrups.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/bestups.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/bestfcom.8.gz
+%%MANPAGES%%%%SERIAL%%share/man/man8/bicker_ser.8.gz
+%%MANPAGES%%%%SERIAL%%share/man/man8/clone-outlet.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/clone.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/dummy-ups.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/etapro.8.gz
@@ -260,6 +264,7 @@ lib/libnutscan.so.3.0.0
 %%MANPAGES%%%%SERIAL%%share/man/man8/ivtscd.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/liebert.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/liebert-esp2.8.gz
+%%MANPAGES%%%%SERIAL%%share/man/man8/liebert-gxe.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/masterguard.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/metasys.8.gz
 %%MANPAGES%%%%SERIAL%%share/man/man8/mge-shut.8.gz
