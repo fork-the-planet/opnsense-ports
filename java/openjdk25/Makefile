@@ -52,19 +52,14 @@ RUN_DEPENDS=	javavm:java/javavmwrapper
 RUN_DEPENDS+=	xorg-fonts-truetype>0:x11-fonts/xorg-fonts-truetype
 .endif
 
-USES=		autoreconf:build compiler:features cpe gmake iconv jpeg pkgconfig
-.if ${FLAVOR:M*headless} == ""
-USES+=		xorg
-.endif
+USES=		autoreconf:build compiler:features cpe gmake iconv jpeg pkgconfig xorg
 
 CPE_VENDOR=	oracle
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	freebsd
 
-.if ${FLAVOR:M*headless} == ""
 USE_XORG=	x11 xext xi xrandr xrender xt xtst
-.endif
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--disable-ccache \
@@ -133,8 +128,8 @@ NOPRECIOUSMAKEVARS=	yes
 
 JDK_MAJOR_VERSION=	25
 JDK_MINOR_VERSION=	0
-JDK_PATCH_VERSION=	1
-JDK_BUILD_NUMBER=	8
+JDK_PATCH_VERSION=	2
+JDK_BUILD_NUMBER=	10
 BSD_JDK_VERSION=	freebsd-1
 JDK_FULL_VERSION=	${JDK_MAJOR_VERSION}.${JDK_MINOR_VERSION}.${JDK_PATCH_VERSION}+${JDK_BUILD_NUMBER}-${BSD_JDK_VERSION}
 
