@@ -1,6 +1,6 @@
 PORTNAME=	aquantia-atlantic-kmod
 PORTVERSION=	0.0.5
-PORTREVISION=	5
+PORTREVISION=	6
 CATEGORIES=	net
 
 MAINTAINER=	franco@opnsense.org
@@ -15,7 +15,7 @@ USE_GITHUB=	yes
 
 GH_ACCOUNT=	albb0920
 GH_PROJECT=	aqtion-freebsd-aq2
-GH_TAGNAME=	9c0944a
+GH_TAGNAME=	3672b26
 
 PLIST_FILES=	${KMODDIR}/if_atlantic.ko
 
