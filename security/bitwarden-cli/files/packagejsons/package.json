@@ -38,9 +38,9 @@
     "libs/**/*"
   ],
   "devDependencies": {
-    "@angular-devkit/build-angular": "20.3.12",
+    "@angular-devkit/build-angular": "20.3.20",
     "@angular-eslint/schematics": "20.7.0",
-    "@angular/cli": "20.3.12",
+    "@angular/cli": "20.3.20",
     "@angular/compiler-cli": "20.3.16",
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.5",
@@ -146,7 +146,7 @@
     "url": "0.11.4",
     "util": "0.12.5",
     "wait-on": "9.0.3",
-    "webpack": "5.104.1",
+    "webpack": "5.105.4",
     "webpack-cli": "6.0.1",
     "webpack-dev-server": "5.2.2",
     "webpack-node-externals": "3.0.0"
@@ -155,7 +155,7 @@
     "@angular/animations": "20.3.16",
     "@angular/cdk": "20.2.14",
     "@angular/common": "20.3.16",
-    "@angular/compiler": "20.3.16",
+    "@angular/compiler": "20.3.18",
     "@angular/core": "20.3.16",
     "@angular/forms": "20.3.16",
     "@angular/platform-browser": "20.3.16",
